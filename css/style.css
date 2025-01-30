@@ -2,11 +2,11 @@ body{
     margin: 0;
     height: 100vh;
     width:100vw;
-    overflow: scroll;
+    overflow: hidden;
     /* box-sizing: border-box; */
 }
 .container{
-    height: 100%;
+    height: 100vh;
     display :grid;
     grid-template-rows: 1fr 10fr 1fr;
 }
@@ -23,8 +23,7 @@ body{
 }
 .navbar ul{
     display: flex;  
-    list-style: none;
-    
+    list-style: none;   
    
 }
 .navbar ul li a {
@@ -42,7 +41,8 @@ body{
 }
 .innerbody{
     display: grid;
-    grid-template-rows: 1fr 3fr;
+    grid-template-rows: 1fr 5fr;
+    height:500px;
 }
 .container1{
     
@@ -61,6 +61,8 @@ body{
 }
 .text{
     padding:10px 10px 10px 10px;
+    overflow-y: scroll;
+    height:500px;
 
 }
 .text p{
@@ -69,12 +71,12 @@ body{
 }
 
 .picturecontainer1 img {
-    height:30%;
+    height:100px;
     width:100%;
     object-fit: cover;
 }
 .picturecontainer2 img{
-    height:30%;
+    height:100px;
     width:100%;
     object-fit: cover;
 }
