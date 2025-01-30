@@ -34,6 +34,9 @@ body{
     padding:10px;
     text-decoration: none;
 }
+.navbar ul li a:hover{
+    color: brown;
+}
 .body{
     display:grid;
     grid-template-columns: 0.3fr 1fr;
